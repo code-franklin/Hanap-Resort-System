@@ -13,7 +13,7 @@ router.route('/')
 
 router.get('/logout',adminControler.logout) //get request   
 
-router.post('/chnagestatus',adminControler.postChnageStatus)// post change status
+router.post('/changestatus',adminControler.postChnageStatus)// post change status
 
 router.route('/addhotel')
       .get(adminControler.getAddHotel) // get request for hotel add page
